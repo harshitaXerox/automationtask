@@ -47,7 +47,7 @@ jobs:
 #       run: firebase database:instances:create --location "us-central1" "automationtest0221" --token "1//0guFhE9FP_qZrCgYIARAAGBASNwF-L9IrWxTL1hlx2WKWBaU-V9WVAYLsjyScYek8eu1QXu3vQoPkVP-lE3tOxTgnuF0AnAjVEd0"
       
     - name: create IOS app
-      run: firebase apps:create --project "automationtest0221" "IOS" "automationtest0221 iOS" --token "1//0guFhE9FP_qZrCgYIARAAGBASNwF-L9IrWxTL1hlx2WKWBaU-V9WVAYLsjyScYek8eu1QXu3vQoPkVP-lE3tOxTgnuF0AnAjVEd0"
+      run: firebase apps:create "IOS" "automationtest0221 iOS" --token "1//0guFhE9FP_qZrCgYIARAAGBASNwF-L9IrWxTL1hlx2WKWBaU-V9WVAYLsjyScYek8eu1QXu3vQoPkVP-lE3tOxTgnuF0AnAjVEd0"
 
       
         
