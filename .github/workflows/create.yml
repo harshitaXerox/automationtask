@@ -26,3 +26,6 @@ jobs:
 
     - name: install firebase
       run: npm i firebase-tools -g  
+      
+    - name: create firebase project
+      run: firebase projects:create "automationtest0221" -n "automationtest0221"
