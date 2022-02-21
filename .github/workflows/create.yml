@@ -26,8 +26,10 @@ jobs:
 
     - name: install firebase
       run: npm i firebase-tools -g  
+      
     - name: firebase login
-      run: firebase login:use "harshitha.nagam@xerox.com"
+      run: firebase login:list  
+      # firebase login:use "harshitha.nagam@xerox.com"
       
     - name: create firebase project
       run: firebase projects:create "automationtest0221" -n "automationtest0221"
