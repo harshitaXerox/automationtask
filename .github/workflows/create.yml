@@ -28,8 +28,8 @@ jobs:
       run: npm i firebase-tools -g  
       
     - name: firebase login
-      run: firebase login  
+      run: firebase login:ci "1//0guFhE9FP_qZrCgYIARAAGBASNwF-L9IrWxTL1hlx2WKWBaU-V9WVAYLsjyScYek8eu1QXu3vQoPkVP-lE3tOxTgnuF0AnAjVEd0"  
       # firebase login:use "harshitha.nagam@xerox.com"
       
     - name: create firebase project
-      run: firebase projects:create --account "harshita N" "automationtest0221" -n "automationtest0221"
+      run: firebase projects:create "automationtest0221" -n "automationtest0221"
